@@ -43,7 +43,7 @@ if(isset($_POST['publish'])) {
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Webkodes | Hi' <?php echo $userRow['name']; ?></title>
+  <title>webxpress | Hi' <?php echo $userRow['name']; ?></title>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="bootstrap/font/css/font-awesome.css">
@@ -262,7 +262,7 @@ if ($DBcon->query($sql) === TRUE) {
       </div>
  <div class="box box-info">
             <div class="box-header">
-              <h3 class="box-title">Webkodes
+              <h3 class="box-title">Webxpress
                 <small>Advanced website builder</small>
               </h3>
               <div class="pull-right box-tools">
@@ -275,7 +275,7 @@ if ($DBcon->query($sql) === TRUE) {
             <div class="box-body pad">
             
             
-            <h1>Welcome to Webkodes</h1>
+            <h1>Welcome to Webxpress</h1>
             <br>
             <div style="display:inline;padding-left:50px;">
             <div style="float:left;margin-left:5%;">
@@ -482,7 +482,7 @@ if ($result->num_rows >0) {
     <div class="pull-right hidden-xs">
       Version 1.0.0
     </div>
-<strong>Copyright &copy; 2016 <a href="http://webkodes.com">Webkodes</a>.</strong> All rights reserved.
+<strong>Copyright &copy; 2016 <a href="http://webxpress.com">webxpress</a>.</strong> All rights reserved.
   </footer>
 </div>
  

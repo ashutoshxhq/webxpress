@@ -33,7 +33,7 @@ $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Webkodes | Hi' <?php echo $userRow['name']; ?></title>
+  <title>webxpress | Hi' <?php echo $userRow['name']; ?></title>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -255,7 +255,7 @@ $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
     <div class="pull-right hidden-xs">
       Version 1.0.0
     </div>
-    <strong>Copyright &copy; 2016 <a href="http://webkodes.com">Webkodes</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2016 <a href="http://webxpress.com">webxpress</a>.</strong> All rights reserved.
   </footer>
 </div>
   

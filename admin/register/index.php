@@ -80,13 +80,13 @@ include_once '../dbconnect.php';
   name varchar(200) NOT NULL,
   email varchar(80) NOT NULL,
   password mediumtext NOT NULL,
-  facebook varchar(80) NOT NULL,
-  twitter varchar(80) NOT NULL,
-  about longtext NOT NULL,
+  facebook varchar(80) NULL,
+  twitter varchar(80) NULL,
+  about longtext NULL,
   type varchar(50) NOT NULL,
   website varchar(500) NOT NULL,
-  tagline varchar(500) NOT NULL,
-  location varchar(500) NOT NULL
+  tagline varchar(500) NULL,
+  location varchar(500) NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1");
  
  
@@ -108,7 +108,7 @@ include_once '../dbconnect.php';
   
   }else {
    $msg = "<div class='alert alert-danger'>
-      <span class='glyphicon glyphicon-info-sign'></span> &nbsp; error while registering !
+      <span class='glyphicon glyphicon-info-sign'></span> &nbsp; error while registering ! " . $query ."<br>" . $DBcon->error."
      </div>";
   }
   
@@ -129,7 +129,7 @@ include_once '../dbconnect.php';
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Webkodes | Registration Page</title>
+  <title>webxpress | Registration Page</title>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="../bootstrap/font/css/font-awesome.css">
@@ -141,7 +141,7 @@ include_once '../dbconnect.php';
 <body class="hold-transition register-page">
 <div class="register-box">
   <div class="register-logo">
-    <a href=""><b>Install </b> Webkodes</a>
+    <a href=""><b>Install </b> webxpress</a>
   </div>
 
   <div class="register-box-body">
